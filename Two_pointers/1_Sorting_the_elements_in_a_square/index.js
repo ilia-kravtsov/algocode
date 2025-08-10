@@ -1,12 +1,12 @@
 let nums = [-5, -3, -1];
 
-function some_1(nums) {
+function sortedSquares_1(nums) {
   return nums.map((num) => num ** 2).sort((a, b) => a - b);
 }
 
-console.log(some_1(nums));
+console.log(sortedSquares_1(nums));
 
-function some_2(nums) {
+function sortedSquares_2(nums) {
   const result = [];
   let left = 0;
   let right = nums.length - 1;
@@ -24,9 +24,9 @@ function some_2(nums) {
   return result;
 }
 
-console.log(some_2(nums));
+console.log(sortedSquares_2(nums));
 
-function some_3(nums) {
+function sortedSquares_3(nums) {
   const result = [];
   let left = 0;
   let right = nums.length - 1;
@@ -44,9 +44,9 @@ function some_3(nums) {
   return result.reverse();
 }
 
-console.log(some_3(nums));
+console.log(sortedSquares_3(nums));
 
-function some_4(nums) {
+function sortedSquares_4(nums) {
   const result = [];
   let k = nums.length - 1;
 
@@ -62,9 +62,9 @@ function some_4(nums) {
   return result.reverse();
 }
 
-console.log(some_4(nums));
+console.log(sortedSquares_4(nums));
 
-function some_5(nums) {
+function sortedSquares_5(nums) {
   const result = [];
   let k = nums.length - 1;
 
@@ -80,10 +80,11 @@ function some_5(nums) {
   return result;
 }
 
-console.log(some_5(nums));
+console.log(sortedSquares_5(nums));
 
 nums = [-5, -3, -1];
-function some_6(nums) {
+
+function sortedSquares_6(nums) {
   for (let i = 0; i < nums.length; i++) {
     nums[i] = nums[i] ** 2;
   }
@@ -101,11 +102,11 @@ function some_6(nums) {
   return nums;
 }
 
-console.log(some_6(nums));
+console.log(sortedSquares_6(nums));
 
 nums = [-5, -3, -1];
 
-function some_7(nums) {
+function sortedSquares_7(nums) {
   let left = 0;
   let right = nums.length - 1;
   const result = [];
@@ -126,11 +127,11 @@ function some_7(nums) {
   return result;
 }
 
-console.log(some_7(nums));
+console.log(sortedSquares_7(nums));
 
 nums = [-5, -3, -1];
 
-function some_8(nums) {
+function sortedSquares_8(nums) {
   let left = 0;
   let right = nums.length - 1;
   let originalLength = nums.length;
@@ -155,10 +156,11 @@ function some_8(nums) {
   return nums;
 }
 
-console.log(some_8(nums));
+console.log(sortedSquares_8(nums));
 
 nums = [-5, -3, -1];
-function some_9(nums) {
+
+function sortedSquares_9(nums) {
   const result = new Array(nums.length);
   let left = 0,
     right = nums.length - 1;
@@ -181,4 +183,4 @@ function some_9(nums) {
   return result;
 }
 
-console.log(some_9(nums));
+console.log(sortedSquares_9(nums));
