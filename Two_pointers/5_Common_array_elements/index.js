@@ -1,3 +1,15 @@
+// This code finds common elements in two sorted arrays using the two-pointer technique.
+// It efficiently traverses both arrays to find elements that are present in both.
+// The time complexity is O(n + m) where n and m are the lengths of the two arrays.
+
+// Example arrays
+// let nums1 = [-3, 2, 2, 5, 8, 19, 31];
+// let nums2 = [1, 2, 2, 2, 6, 19, 52];
+// The function returns an array of common elements.
+// The function can handle duplicates and returns each common element only once.
+// The space complexity is O(k) where k is the number of common elements found.
+// The function can be used to find common elements in any two sorted arrays.
+
 let nums1 = [-3, 2, 2, 5, 8, 19, 31],
   nums2 = [1, 2, 2, 2, 6, 19, 52];
 
