@@ -51,3 +51,23 @@ export function isPalindrome_2(s) {
 }
 
 console.log(isPalindrome_2(s)); 
+
+/*
+Comment on the line of code:
+
+if (s[left++].toLowerCase() !== s[right--].toLowerCase()) return false;
+
+This line of code is equivalent to:
+
+if (s[left].toLowerCase() !== s[right].toLowerCase()) return false;
+left++;
+right--;
+
+left++ is a postfix increment: the current value of left is used first, then left is incremented by 1.
+
+Similarly, for right--: the current value of right is used first, then it is decremented by 1.
+
+In other words, the characters at indices left and right are compared first, and only afterwards the pointers are moved.
+
+Therefore, the behavior and result are exactly the same.
+*/
