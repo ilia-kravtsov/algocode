@@ -1,3 +1,9 @@
+// This function takes a sorted array of integers and returns a new array containing the squares of each number, sorted in non-decreasing order.
+// It uses a two-pointer approach to efficiently calculate the squares while maintaining the sorted order.
+// The time complexity is O(n) and space complexity is O(n).
+// The function returns the new sorted array of squares.
+// Example usage: sortedSquares_1([-4, -1, 0, 3, 10]) returns [0, 1, 9, 16, 100].
+
 let nums = [-5, -3, -1];
 
 function sortedSquares_1(nums) {
@@ -177,6 +183,7 @@ function sortedSquares_9(nums) {
       result[pos] = rightSq;
       right--;
     }
+
     pos--;
   }
 
