@@ -16,3 +16,8 @@
 Ограничения:
 
 len(s) >= 1
+
+This function checks if a given string is a palindrome by comparing characters from both ends towards the center.
+It ignores non-alphanumeric characters and is case-insensitive.
+The time complexity is O(n) and space complexity is O(1).
+The function returns true if the string is a palindrome, otherwise false.

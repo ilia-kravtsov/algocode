@@ -17,3 +17,10 @@
 Ограничения:
 
 len(nums) >= 2
+
+This function finds the maximum area of water that can be contained between two lines represented by the heights in the array.
+It uses a two-pointer approach to efficiently calculate the area while moving the pointers based on the heights of the lines.
+The time complexity is O(n) and space complexity is O(1).
+The function returns the maximum area found.
+The input is an array of integers representing the heights of the lines.
+Example usage: maxArea_1([2, 3, 4, 5]) returns 6.
