@@ -10,11 +10,11 @@ let f = "abcd#";
 let g = "ab##";
 let h = "c#d#";
 
-let j = "bxj##tw"; 
-let k = "bxj###tw";
+let i = "bxj##tw"; 
+let j = "bxj###tw";
 
-let l = "bxj##tw"; 
-let m = "bxo#j##tw";
+let k = "bxj##tw"; 
+let l = "bxo#j##tw";
 
 function compare(s, t) {
   let p1 = s.length - 1
@@ -66,5 +66,5 @@ console.log(compare(a, b)); // true
 console.log(compare(c, d)); // true
 console.log(compare(e, f)); // false
 console.log(compare(g, h)); // true
-console.log(compare(j, k)); // false
-console.log(compare(l, m)); // true
+console.log(compare(i, j)); // false
+console.log(compare(k, l)); // true
